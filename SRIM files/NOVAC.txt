@@ -1,4 +1,4 @@
-====== H (10) into Layer 1                      =======
+====== H (10) into SS316L+Pb-4Bi                =======
         SRIM-2008.04
 =========================================
         Replacement Collisions       

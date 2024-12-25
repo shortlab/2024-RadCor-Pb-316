@@ -1,4 +1,4 @@
-====== H (10) into Layer 1                      =======
+====== H (10) into SS316L+Pb-4Bi                =======
         SRIM-2008.04
 =======================================
       Data  of  TRIM  Calculation      
@@ -10,15 +10,21 @@ Ion =  H ( 1)   Ion Mass= 001.0080
 Energy  = 3000000.E-03 keV
 Ion Angle to Surface = 0 degrees
 ============= TARGET MATERIAL ======================================
-  Layer # 1 - Layer 1
-  Layer # 1 - Bottom Depth=     5.E+05 A
-  Layer # 1- Density = 8.378E22 atoms/cm3 = 7.98 g/cm3
-  Layer # 1- Fe = 3.12 Atomic Percent = 1.87 Mass Percent
-  Layer # 1- Ni = 31.9 Atomic Percent = 16.3 Mass Percent
-  Layer # 1- Cr = 51.0 Atomic Percent = 23.1 Mass Percent
-  Layer # 1- Si = 1.65 Atomic Percent = .404 Mass Percent
-  Layer # 1- Mn = 5.58 Atomic Percent = 2.67 Mass Percent
-  Layer # 1- Mo = 6.64 Atomic Percent = 5.55 Mass Percent
+  Layer # 1 - SS316L
+  Layer # 1 - Bottom Depth=     3.E+05 A
+  Layer # 1- Density = 8.455E22 atoms/cm3 = 7.811 g/cm3
+  Layer # 1- Fe = 68.4 Atomic Percent = 34.3 Mass Percent
+  Layer # 1- Ni = 9.76 Atomic Percent = 5.15 Mass Percent
+  Layer # 1- Cr = 17.6 Atomic Percent = 8.23 Mass Percent
+  Layer # 1- Si = 1.05 Atomic Percent = .266 Mass Percent
+  Layer # 1- Mn = 1.83 Atomic Percent = .904 Mass Percent
+  Layer # 1- Mo = 1.23 Atomic Percent = 1.06 Mass Percent
+====================================================================
+  Layer # 2 - Pb-4Bi
+  Layer # 2 - Bottom Depth=     6.E+05 A
+  Layer # 2- Density = 3.277E22 atoms/cm3 = 11.28 g/cm3
+  Layer # 2- Pb = 96   Atomic Percent = 47.9 Mass Percent
+  Layer # 2- Bi = 4    Atomic Percent = 2.01 Mass Percent
 ====================================================================
 Target energies for target atom = Fe
     Displacement = 40 eV, Binding = 3 eV, Surface = 4.34 eV
@@ -32,15 +38,19 @@ Target energies for target atom = Mn
     Displacement = 40 eV, Binding = 3 eV, Surface = 2.98 eV
 Target energies for target atom = Mo
     Displacement = 60 eV, Binding = 3 eV, Surface = 6.83 eV
+Target energies for target atom = Pb
+    Displacement = 25 eV, Binding = 3 eV, Surface = 2.03 eV
+Target energies for target atom = Bi
+    Displacement = 25 eV, Binding = 3 eV, Surface = 2.17 eV
 ====================================================================
-Depth Range of Tabulated Data=  000000.E+00  -  500000.E+00  Angstroms
+Depth Range of Tabulated Data=  000000.E+00  -  550000.E+00  Angstroms
 ====================================================================
-Total Ions calculated =  043037
-Average Range         =   36090.E+01 Angstroms
-Average Straggling    =   11697.E+00 Angstroms
-Average Vacancy/Ion   =   16498.E-03
+Total Ions calculated =  060430
+Average Range         =   39981.E+01 Angstroms
+Average Straggling    =   20022.E+00 Angstroms
+Average Vacancy/Ion   =   26925.E-03
 ====================================================================
-Total Backscattered Ions=  6 
+Total Backscattered Ions=  5 
 Total Transmitted Ions  =  0 
 ====================================================================
 See files SRIM Outputs\*.txt for tables :
